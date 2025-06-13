@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 USER node
-RUN git clone https://github.com/MRSHABAN40/SK38.git /home/node/SK38
+RUN git clone https://github.com/Sddxf/SHABAN-MD-V5-Nicolaus /home/node/SK38
 WORKDIR /home/node/SK38
 RUN chmod -R 777 /home/node/SK38/
 RUN yarn install --network-concurrency 1
